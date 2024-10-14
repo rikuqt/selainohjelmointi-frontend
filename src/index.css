@@ -1,0 +1,94 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: #ef0000;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.buttonLisaa {
+  background-color: #33ff00;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  background-color: #1a1a1a;
+}
+
+h1 {
+  padding-top: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+  }
+
+.tyo {
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+form {
+  text-align: center;
+}
+
+
+
+/* Animoitu tausta (otettu suoraan netistä)*/
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}
