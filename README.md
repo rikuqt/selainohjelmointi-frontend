@@ -1,2 +1,2 @@
-- [Ohjelma render sivulla](https://selainohjelmointi-backend-harkka.onrender.com/)
+- [Ohjelma render sivulla](https://selainohjelmointi-backend-harkka.onrender.com/) voi kestää vähän aikaa ensimmäinen käynnistys
 - [Backend](https://github.com/rikuqt/selainohjelmointi-backend-harkka)
