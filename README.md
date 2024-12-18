@@ -1,2 +1,3 @@
 - [Ohjelma render sivulla](https://selainohjelmointi-backend-harkka.onrender.com/) voi kestää vähän aikaa ensimmäinen käynnistys
 - [Backend](https://github.com/rikuqt/selainohjelmointi-backend-harkka)
+- "frontend_devbuild_scripti.bat" Oma tekemä scripti joka buildaa frontendin ja siirtää sen sen backendin kansioon
