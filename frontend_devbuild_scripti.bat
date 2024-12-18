@@ -2,8 +2,6 @@
 :: backendin kansioon
 
 
-
-:: yes/no pohja kopioitu -> https://gist.github.com/jcefoli/fb9400aafee2ac585db3
 @ECHO OFF
 :start
 SET choice=
